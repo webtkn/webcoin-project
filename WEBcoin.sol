@@ -55,13 +55,13 @@ contract ERC20Standard {
 
 }
 
-contract WEBcoin is ERC20Standard {
-	string public name = "WEBCoin";
+contract WEBCOIN is ERC20Standard {
+	string public name = "WEBCOIN";
 	uint8 public decimals = 18;
 	string public symbol = "WEB";
 	uint public totalSupply = 21000000000000000000000000;
 	    
-	function WEBcoin() {
+	function WEBCOIN() {
 	    balances[msg.sender] = totalSupply;
 	}
 }
