@@ -3,12 +3,12 @@ pragma solidity ^0.4.11;
 import "./ERC20Standard.sol";
 
 contract WEBcoin is ERC20Standard {
+	string public name = "WEBCoin";
+	uint8 public decimals = 18;
+	string public symbol = "WEB";
+	uint public totalSupply = 21000000;
+	    
 	function WEBcoin() {
-		totalSupply = 21000000;
-		name = "WEBCoin";
-		decimals = 18;
-		symbol = "WEB";
-		version = "1.0";
-		balances[msg.sender] = totalSupply;
+	    balances[msg.sender] = totalSupply;
 	}
 }
