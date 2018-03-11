@@ -56,7 +56,7 @@ contract ERC20Standard {
 }
 
 contract WEBCOIN is ERC20Standard {
-	string public name = "WEBCOIN";
+	string public name = "WEBCoin";
 	uint8 public decimals = 18;
 	string public symbol = "WEB";
 	uint public totalSupply = 21000000000000000000000000;
